@@ -31,3 +31,4 @@
 
 en:
   hello: "Hello world"
+  status_wrong_direction: "can be only changed in one direction"

@@ -1,7 +1,7 @@
 class CreateTrips < ActiveRecord::Migration[5.2]
   def change
     create_table :trips do |t|
-      t.string :status
+      t.integer :status, default: 0
 
       t.timestamps
     end
