@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87819b28-52ac-48c7-9bb9-868dbc2b7444" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.rspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/trip.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/trip_location.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20190928175231_create_trips.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20190928181311_create_trip_locations.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/models/trip_location_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/models/trip_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/rails_helper.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/spec_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -156,7 +147,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569691848905</updated>
-      <workItem from="1569691850647" duration="3621000" />
+      <workItem from="1569691850647" duration="3696000" />
     </task>
     <servers />
   </component>
