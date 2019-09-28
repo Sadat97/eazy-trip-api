@@ -23,11 +23,12 @@ class TripController < ApplicationController
   # PUT /trips/:id
   def update
     @trip.update(trip_params)
-    head :no_content
+    json_response @trip
   end
 
   def submit_location
-    SubmitLocationWorker.perform_async @trip.id, params[:location]
+    SubmitLocationWorker.perform_async(@trip.id, params[:location])
+    json_response({message: 'the location is being updated'}, :ok)
   end
 
   # DELETE /trips/:id
@@ -44,7 +45,7 @@ class TripController < ApplicationController
 
   def check_location
     unless params[:location].present?
-      raise ActiveRecord::RecordInvalid.new(message: 'location is needed')
+      json_response({message: 'Location is needed'}, :unprocessable_entity)
     end
   end
 

@@ -184,6 +184,7 @@ DEPENDENCIES
   pg
   puma (~> 3.11)
   rails (~> 5.2.2)
+  redis (~> 4.0)
   rspec-rails
   shoulda-matchers
   sidekiq
@@ -191,8 +192,5 @@ DEPENDENCIES
   spring-watcher-listen (~> 2.0.0)
   tzinfo-data
 
-RUBY VERSION
-   ruby 2.3.1p112
-
 BUNDLED WITH
-   1.16.5
+   1.17.2

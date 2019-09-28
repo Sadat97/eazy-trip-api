@@ -2,30 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87819b28-52ac-48c7-9bb9-868dbc2b7444" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/sadat.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/concerns/exception_handler.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/concerns/response.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/trip_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/workers/submit_location_worker.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/controllers/trip_controller_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/factories/trip.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/request/trip_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/support/trip_spec_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/sidekiq.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/trip-task.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/trip-task.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/trip.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/trip.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/trip_location.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/trip_location.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/locales/en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/trip_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/trip_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/workers/submit_location_worker.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/workers/submit_location_worker.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20190928175231_create_trips.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20190928175231_create_trips.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/models/trip_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/trip_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/rails_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/rails_helper.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -358,7 +343,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569691848905</updated>
-      <workItem from="1569691850647" duration="17700000" />
+      <workItem from="1569691850647" duration="17905000" />
+      <workItem from="1569712251863" duration="1422000" />
     </task>
     <servers />
   </component>
@@ -370,7 +356,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
