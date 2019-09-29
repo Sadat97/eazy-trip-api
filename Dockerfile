@@ -11,5 +11,6 @@ RUN gem install tzinfo-data
 
 COPY . .
 
+EXPOSE 3000
 
-CMD puma -C config/puma.rb
+ENTRYPOINT ["sh", "./config/docker/startup.sh"]
