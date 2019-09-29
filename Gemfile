@@ -8,8 +8,9 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'pg'
 gem 'puma', '~> 3.11'
 gem 'rails', '~> 5.2.2'
-gem 'sidekiq'
 gem "redis", "~> 4.0"
+gem 'sidekiq'
+gem 'tzinfo-data'
 
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
@@ -30,4 +31,3 @@ group :test do
   gem 'shoulda-matchers'
 end
 
-gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
